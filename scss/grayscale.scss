@@ -37,3 +37,34 @@ a {
 footer {
   padding: 5rem 0;
 }
+
+/* put custom css here*/
+
+
+.my-image{
+  height: 3em;
+}
+
+.signup-section {
+  background-image: url('../img/background2.jpg');
+}
+
+.about-section {
+  background: $black;
+  background-image: url('../img/earth.jpg');
+  // background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.dino-photo {
+  height: 12em;
+  border-radius: 10em;
+  margin: 1em;
+}
+
+.row-foo {
+  display: flex;
+  justify-content: space-around;
+}
+
